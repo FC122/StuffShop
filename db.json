@@ -1,0 +1,263 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Dolce Bregana",
+      "description": "Fancy Jacket",
+      "supply": 146,
+      "price": 1000,
+      "picture": "https://i5.walmartimages.com/asr/a1eb4042-bf5f-4308-b4d2-6380b434e9f3.619030836cca28a64905f880f94d1513.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff"
+    },
+    {
+      "id": 2,
+      "name": "Code Beef",
+      "description": "Expensive Food",
+      "supply": 129,
+      "price": 1000,
+      "picture": "https://img.thrfun.com/img/079/561/pet_chicken_x1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Lemovo Smart Touch",
+      "description": "128K Screen - 32TB Memory - 500TB SSD - LED",
+      "supply": 122,
+      "price": 1200,
+      "picture": "http://www.khmer440.com/k/wp-content/uploads/2015/04/broken-laptop.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kosilica",
+      "description": "Brzo Vrti",
+      "supply": 122,
+      "price": 1200,
+      "picture": "https://www.advancedappliancecare.co.uk/wp-content/uploads/2013/10/washing-machine1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Baba",
+      "description": "Buy Baba, everyone needs a Baba.",
+      "supply": 122,
+      "price": 1200,
+      "picture": "http://static.tumblr.com/wiqhnhj/Xl8lwlz3f/winking_babushka.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Magla",
+      "description": "Prodajemo maglu!",
+      "supply": 122,
+      "price": 1200,
+      "picture": "http://img4.wikia.nocookie.net/__cb20110102163040/demigodshaven/images/f/f5/Mist.jpg"
+    }
+  ],
+  "users": [
+    {
+      "username": "Dohn",
+      "password": "Baba",
+      "id": 1,
+      "balance": 11300,
+      "cart": {
+        "items": []
+      }
+    },
+    {
+      "username": "cica",
+      "password": "123",
+      "id": 2999118330,
+      "balance": 8000,
+      "cart": {
+        "items": []
+      },
+      "ballance": -5200
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "user": {
+        "name": "Dohn",
+        "surname": "Joe",
+        "id": 1,
+        "balance": 12300,
+        "cart": {
+          "items": []
+        }
+      },
+      "total": 123
+    },
+    {
+      "invoice": {
+        "user": {
+          "username": "cica",
+          "password": "123",
+          "id": 2999118330,
+          "balance": "10000",
+          "cart": {
+            "items": [
+              {
+                "id": 1,
+                "name": "Dolce Bregana",
+                "description": "Fancy Jacket",
+                "supply": 120,
+                "price": 1000,
+                "picture": "https://picsum.photos/200"
+              }
+            ]
+          }
+        },
+        "total": 1000,
+        "id": 3732572803
+      },
+      "id": 2
+    },
+    {
+      "invoice": {
+        "user": {
+          "username": "cica",
+          "password": "123",
+          "id": 2999118330,
+          "balance": 9000,
+          "cart": {
+            "items": []
+          }
+        },
+        "total": 0,
+        "id": 2124689303
+      },
+      "id": 3
+    },
+    {
+      "invoice": {
+        "user": {
+          "username": "cica",
+          "password": "123",
+          "id": 2999118330,
+          "balance": 9000,
+          "cart": {
+            "items": [
+              {
+                "name": "Code Beef",
+                "description": "Expensive Food",
+                "id": 2,
+                "supply": 123,
+                "price": 1000,
+                "picture": "https://picsum.photos/200"
+              }
+            ]
+          }
+        },
+        "total": 1000,
+        "id": 4070343659
+      },
+      "id": 4
+    },
+    {
+      "invoice": {
+        "user": {
+          "username": "cica",
+          "password": "123",
+          "id": 2999118330,
+          "balance": 8000,
+          "cart": {
+            "items": [
+              {
+                "id": 2,
+                "name": "Code Beef",
+                "description": "Expensive Food",
+                "supply": 133,
+                "price": 1000,
+                "picture": "https://picsum.photos/200"
+              },
+              {
+                "id": 2,
+                "name": "Code Beef",
+                "description": "Expensive Food",
+                "supply": 132,
+                "price": 1000,
+                "picture": "https://picsum.photos/200"
+              }
+            ]
+          }
+        },
+        "total": 2000,
+        "id": 3442041996
+      },
+      "id": 5
+    },
+    {
+      "invoice": {
+        "user": {
+          "username": "cica",
+          "password": "123",
+          "id": 2999118330,
+          "balance": 8000,
+          "cart": {
+            "items": [
+              {
+                "id": 1,
+                "name": "Dolce Bregana",
+                "description": "Fancy Jacket",
+                "supply": 148,
+                "price": 1000,
+                "picture": "https://picsum.photos/200"
+              },
+              {
+                "id": 2,
+                "name": "Code Beef",
+                "description": "Expensive Food",
+                "supply": 131,
+                "price": 1000,
+                "picture": "https://picsum.photos/200"
+              }
+            ]
+          },
+          "ballance": null
+        },
+        "total": 2000,
+        "id": 201157420
+      },
+      "id": 6
+    },
+    {
+      "invoice": {
+        "user": {
+          "username": "cica",
+          "password": "123",
+          "id": 2999118330,
+          "balance": 8000,
+          "cart": {
+            "items": [
+              {
+                "id": 1,
+                "name": "Dolce Bregana",
+                "description": "Fancy Jacket",
+                "supply": 147,
+                "price": 1000,
+                "picture": "https://picsum.photos/200"
+              },
+              {
+                "id": 2,
+                "name": "Code Beef",
+                "description": "Expensive Food",
+                "supply": 130,
+                "price": 1000,
+                "picture": "https://picsum.photos/200"
+              },
+              {
+                "id": 3,
+                "name": "Lemovo Smart Touch",
+                "description": "128K Screen - 32TB Memory - 500TB SSD - LED",
+                "supply": 123,
+                "price": 1200,
+                "picture": "https://picsum.photos/200"
+              }
+            ]
+          },
+          "ballance": -2000
+        },
+        "total": 3200,
+        "id": 4247750156
+      },
+      "id": 7
+    }
+  ]
+}
