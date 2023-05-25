@@ -72,7 +72,7 @@ import Items from './components/Items.vue';
 import Header from './components/Header.vue';
 import CartItems from './components/CartItems.vue';
 import axios from 'axios';
-let url = "http://localhost:3000";
+let url = "https://stuffshopserver.onrender.com";
 const instance = axios.create();
 export default {
   name: 'App',
